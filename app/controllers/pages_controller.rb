@@ -6,12 +6,10 @@ class PagesController < ApplicationController
 	end
 
 	def resume
-
 	end
 	def projects
-
 	end
-	
+
 	def faq
 	end
 end
