@@ -1,19 +1,19 @@
 class PagesController < ApplicationController
-	def index
-	end
+  def index
+  end
 
-	def about
-	end
+  def about
+  end
 
-	def resume
-	end
-	
-	def projects
-	end
+  def resume
+  end
 
-	def projectview
-	end
+  def projects
+  end
 
-	def faq
-	end
+  def projectview
+  end
+
+  def faq
+  end
 end
