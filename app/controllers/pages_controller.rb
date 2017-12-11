@@ -7,8 +7,8 @@ class PagesController < ApplicationController
 
   def resume
   end
-
-  def projects
+  
+  def projectindex
   end
 
   def projectview
