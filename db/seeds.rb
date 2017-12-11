@@ -7,9 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Project.create(
-	title: 'WatchFlix',
- 	image: 'watchflix.png',
- 	short_desc: 'A website that allowers users to browse movies and create personalized watch lists',
-	long_desc: 'This was a team project that that was created using HTML, CSS, SQL, Javascript, Bootstrap, and PHP. Our team populated our database using the IMDb API.', 
-	project_link: 'https://watchflix.000webhostapp.com/index.php'
-	)
+  title: 'WatchFlix',
+  image: 'watchflix.png',
+  short_desc: 'A website that allowers users to browse movies and create personalized watch lists',
+  long_desc: 'This was a team project that that was created using HTML, CSS, SQL, Javascript, Bootstrap, and PHP. Our team populated our database using the IMDb API.', 
+  project_link: 'https://watchflix.000webhostapp.com/index.php'
+  )
