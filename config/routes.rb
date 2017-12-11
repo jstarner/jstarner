@@ -6,4 +6,3 @@ Rails.application.routes.draw do
   get :resume, controller: :pages
   get :about, controller: :pages
   get :faq, controller: :pages
-end
