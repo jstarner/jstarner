@@ -12,14 +12,12 @@
       <% @projects.each do |project| %>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="projectview"><img class="card-img-top" <%= image_tag(project.image, size: '400x250') %></a>
+            <a class="card-img-top"><%= link_to image_tag(project.image, size: '348x250'), project %></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="projectview"><%= project.title %></a>
+                <a href="projectview"><%= link_to project.title, project %></a>
               </h4>
               <p class="card-text"><%= project.short_desc %></p>
-              <a><%= link_to 'Show', project %></a>
-              <a><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></a>
             </div>
           </div>
         </div>

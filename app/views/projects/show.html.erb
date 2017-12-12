@@ -19,7 +19,7 @@
       <div class="col-md-4">
         <h3 class="my-3">Project Description</h3>
         <p><%= @project.long_desc %></p>
-        <p><%= link_to 'Live Project',@project.project_link %></p>
+        <a class="btn btn-primary btn-xl js-scroll-trigger " <%= link_to 'Live Demo',@project.project_link %></a>
       </div>
     </div>
     <br><br>
