@@ -23,7 +23,14 @@
       </li>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
-      <a class="btn btn-primary btn-xl js-scroll-trigger" <%= link_to 'Login', 'about'%></a>
+      <% if user_signed_in? %>
+        Logged in as <strong><%= current_user.email %></strong>.
+        <%= link_to 'Edit profile', edit_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger' %> |
+        <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'btn btn-primary btn-xl js-scroll-trigger'  %>
+      <% else %>
+        <%= link_to "Sign up", new_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'  %> |
+        <%= link_to "Login", new_user_session_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'  %>
+      <% end %>
     </form>
   </div>
 </nav>
