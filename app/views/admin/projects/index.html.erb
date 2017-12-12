@@ -25,7 +25,7 @@
           <td><%= project.project_link %></td>
           <td><%= link_to 'Show', project, target: :blank %></td>
           <td><%= link_to 'Edit', edit_admin_project_path(project) %></td>
-          <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          <td><%= link_to 'Destroy', admin_project_path(project), method: :delete, data: { confirm: 'Are you sure?' } %></td>
         </tr>
       <% end %>
     </tbody>
