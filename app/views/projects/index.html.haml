@@ -1,0 +1,21 @@
+%body
+  %p#notice= notice
+  %h1 Projects
+  .container.text-left
+    / Page Heading
+    %h1.my-4
+      Projects
+      %br/
+    .row
+      - @projects.each do |project|
+        .col-lg-4.col-sm-6.portfolio-item
+          .card.h-100
+            %a.card-img-top= link_to image_tag(project.image, size: '348x250'), project
+            .card-body
+              %h4.card-title
+                %a{:href => "projectview"}= link_to project.title, project
+              %p.card-text= project.short_desc
+  %br/
+  / Bootstrap core JavaScript
+  %script{:src => "vendor/jquery/jquery.min.js"}
+  %script{:src => "vendor/bootstrap/js/bootstrap.bundle.min.js"}

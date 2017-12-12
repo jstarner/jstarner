@@ -1,0 +1,16 @@
+%body
+  %header.masthead.text-center.text-white.d-flex
+    .container.my-auto
+      .row
+        .col-lg-10.mx-auto
+          %h1.text-uppercase
+            %strong.mb-0
+              Justin
+              %span.text-primary Starner
+            %br/
+            %img.img-fluid.img-profile.rounded-circle.mx-auto.mb-2/
+            =image_tag("profile.jpg", size: "250x250")
+          %hr/
+        .col-lg-8.mx-auto
+          %h3 Welcome to my web based software portfolio
+          %a= link_to 'EXPLORE', 'about', :class => 'btn btn-primary btn-xl js-scroll-trigger'

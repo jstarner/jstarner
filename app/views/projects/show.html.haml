@@ -1,0 +1,25 @@
+%body
+  %p#notice= notice
+  %br/
+  %br/
+  .container.text-left
+    / Portfolio Item Heading
+    %h1.my-4
+      = @project.title
+      %br/
+    / Portfolio Item Row
+    .row
+      .col-md-8
+        %img.img-fluid/
+        =image_tag(@project.image, size: '750x500')
+      .col-md-4
+        %h3.my-3 Project Description
+        %p= @project.long_desc
+        %a= link_to 'Live Demo',@project.project_link, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+    %br/
+    %br/
+    %a= link_to 'Back', projects_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+    %br/
+    %br/
+    / /.row
+  / /.container

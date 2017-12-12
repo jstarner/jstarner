@@ -36,6 +36,8 @@ gem 'bootstrap', '~> 4.0.0.alpha3'
 
 gem 'devise'
 
+gem "haml-rails", "~> 1.0"
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
