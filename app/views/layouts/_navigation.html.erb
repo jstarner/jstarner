@@ -21,10 +21,13 @@
       <li class="nav-item">
         <a class="nav-link" href="/faq">FAQ</a>
       </li>
+      <%- if current_user && current_user.is_admin %>
+        <li class="nav-item"><a class="nav-link" <%=link_to "Admin", admin_projects_path %></li>
+      <%- end %>
     </ul>
     <form class="form-inline mt-2 mt-md-0">
       <% if user_signed_in? %>
-        Logged in as <strong><%= current_user.email %></strong>.
+        <a class='btn btn-primary btn-xl js-scroll-trigger'>Logged in as <strong><%= current_user.email %></strong></a> |
         <%= link_to 'Edit profile', edit_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger' %> |
         <%= link_to "Logout", destroy_user_session_path, method: :delete, :class => 'btn btn-primary btn-xl js-scroll-trigger'  %>
       <% else %>
