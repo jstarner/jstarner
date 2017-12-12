@@ -1,29 +1,31 @@
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Title:</strong>
-  <%= @project.title %>
-</p>
+<br>
+<br>
 
-<p>
-  <strong>Image:</strong>
-  <%= @project.image %>
-</p>
+<body>
+  <div class="container text-left">
+    <!-- Portfolio Item Heading -->
+    <h1 class="my-4"><%= @project.title %><br>
+    </h1>
 
-<p>
-  <strong>Short desc:</strong>
-  <%= @project.short_desc %>
-</p>
+    <!-- Portfolio Item Row -->
+    <div class="row">
 
-<p>
-  <strong>Long desc:</strong>
-  <%= @project.long_desc %>
-</p>
+      <div class="col-md-8">
+        <img class="img-fluid" <%= image_tag(@project.image, size: '750x500')%>
+      </div>
 
-<p>
-  <strong>Project link:</strong>
-  <%= @project.project_link %>
-</p>
-
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
+      <div class="col-md-4">
+        <h3 class="my-3">Project Description</h3>
+        <p><%= @project.long_desc %></p>
+        <p><%= link_to 'Live Project',@project.project_link %></p>
+      </div>
+    </div>
+    <br><br>
+    <a class="btn btn-primary btn-xl js-scroll-trigger" <%= link_to 'Back', projects_path %></a>
+    <br><br>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</body>

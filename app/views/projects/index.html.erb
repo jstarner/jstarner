@@ -2,34 +2,34 @@
 
 <h1>Projects</h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Image</th>
-      <th>Short desc</th>
-      <th>Long desc</th>
-      <th>Project link</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+<body>
+  <div class="container text-left">
+    <!-- Page Heading -->
+    <h1 class="my-4">Projects<br>
+    </h1>
 
-  <tbody>
-    <% @projects.each do |project| %>
-      <tr>
-        <td><%= project.title %></td>
-        <td><%= project.image %></td>
-        <td><%= project.short_desc %></td>
-        <td><%= project.long_desc %></td>
-        <td><%= project.project_link %></td>
-        <td><%= link_to 'Show', project %></td>
-        <td><%= link_to 'Edit', edit_project_path(project) %></td>
-        <td><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    <div class="row">
+      <% @projects.each do |project| %>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="projectview"><img class="card-img-top" <%= image_tag(project.image, size: '400x250') %></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="projectview"><%= project.title %></a>
+              </h4>
+              <p class="card-text"><%= project.short_desc %></p>
+              <a><%= link_to 'Show', project %></a>
+              <a><%= link_to 'Destroy', project, method: :delete, data: { confirm: 'Are you sure?' } %></a>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 
-<br>
+  <br>
 
-<%= link_to 'New Project', new_project_path %>
+<!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
