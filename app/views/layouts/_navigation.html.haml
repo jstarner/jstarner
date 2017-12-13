@@ -18,7 +18,7 @@
             %a.nav-link{:href => "/faq"} FAQ
           - if current_user && current_user.is_admin
             %li.nav-item
-              %a.nav-link link_to "Admin", admin_projects_path
+              %a.nav-link{:href => "/admin/projects"} Admin
         %form.form-inline.mt-2.mt-md-0
           - if user_signed_in?
             %a
