@@ -38,6 +38,8 @@ gem 'devise'
 
 gem "haml-rails", "~> 1.0"
 
+gem 'font-awesome-sass'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
