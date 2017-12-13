@@ -13,9 +13,9 @@
             %a.card-img-top= link_to image_tag(project.image, size: '348x250'), project
             .card-body
               %h4.card-title
-                %a{:href => "projectview"}= link_to project.title, project
+                %a{:href => 'projectview'}= link_to project.title, project
               %p.card-text= project.short_desc
   %br/
   / Bootstrap core JavaScript
-  %script{:src => "vendor/jquery/jquery.min.js"}
-  %script{:src => "vendor/bootstrap/js/bootstrap.bundle.min.js"}
+  %script{:src => 'vendor/jquery/jquery.min.js'}
+  %script{:src => 'vendor/bootstrap/js/bootstrap.bundle.min.js'}

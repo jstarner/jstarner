@@ -2,40 +2,40 @@
   %header
     / Fixed navbar
     %nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
-      %button.navbar-toggler{"aria-controls" => "navbarCollapse", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarCollapse", "data-toggle" => "collapse", :type => "button"}
+      %button.navbar-toggler{'aria-controls' => 'navbarCollapse', 'aria-expanded' => 'false', 'aria-label' => 'Toggle navigation', 'data-target' => '#navbarCollapse', 'data-toggle' => 'collapse', :type => 'button'}
         %span.navbar-toggler-icon
       #navbarCollapse.collapse.navbar-collapse
         %ul.navbar-nav.mr-auto
           %li.nav-item
-            %a.nav-link{:href => "/index"} Home
+            %a.nav-link{:href => '/index'} Home
           %li.nav-item
-            %a.nav-link{:href => "/about"} About
+            %a.nav-link{:href => '/about'} About
           %li.nav-item
-            %a.nav-link{:href => "/projects"} Projects
+            %a.nav-link{:href => '/projects'} Projects
           %li.nav-item
-            %a.nav-link{:href => "/resume"} Resume
+            %a.nav-link{:href => '/resume'} Resume
           %li.nav-item
-            %a.nav-link{:href => "/faq"} FAQ
+            %a.nav-link{:href => '/faq'} FAQ
           - if current_user && current_user.is_admin
             %li.nav-item
-              %a.nav-link{:href => "/admin/projects"} Admin
+              %a.nav-link{:href => '/admin/projects'} Admin
         %form.form-inline.mt-2.mt-md-0
           - if user_signed_in?
             %a
               %strong= link_to current_user.email
             |||
             \#{link_to 'Edit profile', edit_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'} ||
-            \#{link_to "Logout", destroy_user_session_path, method: :delete, :class => 'btn btn-primary btn-xl js-scroll-trigger'}
+            \#{link_to 'Logout', destroy_user_session_path, method: :delete, :class => 'btn btn-primary btn-xl js-scroll-trigger'}
           - else
-            = link_to "Sign up", new_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+            = link_to 'Sign up', new_user_registration_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
             ||
-            \#{link_to "Login", new_user_session_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'}
+            \#{link_to 'Login', new_user_session_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'}
   / Bootstrap core JavaScript
-  %script{:src => "vendor/jquery/jquery.min.js"}
-  %script{:src => "vendor/bootstrap/js/bootstrap.bundle.min.js"}
+  %script{:src => 'vendor/jquery/jquery.min.js'}
+  %script{:src => 'vendor/bootstrap/js/bootstrap.bundle.min.js'}
   / Plugin JavaScript
-  %script{:src => "vendor/jquery-easing/jquery.easing.min.js"}
-  %script{:src => "vendor/scrollreveal/scrollreveal.min.js"}
-  %script{:src => "vendor/magnific-popup/jquery.magnific-popup.min.js"}
+  %script{:src => 'vendor/jquery-easing/jquery.easing.min.js'}
+  %script{:src => 'vendor/scrollreveal/scrollreveal.min.js'}
+  %script{:src => 'vendor/magnific-popup/jquery.magnific-popup.min.js'}
   / Custom scripts for this template
-  %script{:src => "https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js"}
+  %script{:src => 'https://blackrockdigital.github.io/startbootstrap-creative/js/creative.min.js'}
