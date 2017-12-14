@@ -40,6 +40,8 @@ gem "haml-rails", "~> 1.0"
 
 gem 'font-awesome-sass'
 
+gem 'simple_form'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end

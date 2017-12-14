@@ -1,25 +1,14 @@
 %br/
 %br/
 %br/
-.container.my-auto
+.container.text-left
   %h1 Sign up
-  = form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
-    = devise_error_messages!
-    .field
-      = f.label :email
+  %d.row
+    %d.col-md-6
+      = simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
+        = f.input :email, :format => { :with => /\A[^@\s]+@[^@\s]+\z/, :message => 'Invalid e-mail! Please provide a valid e-mail address'}
+        = f.input :password, autocomplete: "off", :minimum => 6, :maximum => 128
+        = f.input :password_confirmation, autocomplete: "off", :minimum => 6, :maximum => 128
+        = f.button :submit, "Sign up", :class => 'btn btn-primary btn-xl js-scroll-trigger'
       %br/
-      = f.email_field :email, autofocus: true
-    .field
-      = f.label :password
-      - if @minimum_password_length
-        %em
-          (#{@minimum_password_length} characters minimum)
-      %br/
-      = f.password_field :password, autocomplete: "off"
-    .field
-      = f.label :password_confirmation
-      %br/
-      = f.password_field :password_confirmation, autocomplete: "off"
-    .actions
-      = f.submit "Sign up"
-  = render "devise/shared/links"
+      = render "devise/shared/links"

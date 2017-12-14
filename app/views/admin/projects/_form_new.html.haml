@@ -1,26 +1,10 @@
-= form_with(model: project, local: true, url: admin_projects_path) do |form|
-  - if project.errors.any?
-    #error_explanation
-      %h2
-        = pluralize(project.errors.count, 'error')
-        prohibited this project from being saved:
-      %ul
-        - project.errors.full_messages.each do |message|
-          %li= message
-  .field
-    = form.label :title
-    = form.text_field :title, id: :project_title
-  .field
-    = form.label :image
-    = form.text_field :image, id: :project_image
-  .field
-    = form.label :short_desc
-    = form.text_field :short_desc, id: :project_short_desc
-  .field
-    = form.label :long_desc
-    = form.text_area :long_desc, id: :project_long_desc
-  .field
-    = form.label :project_link
-    = form.text_field :project_link, id: :project_project_link
-  .actions
-    = form.submit
+%d.row
+  %d.col-md-6
+    = simple_form_for(:project, url: admin_projects_path) do |f|
+      = f.input  :title
+      = f.input  :image, placeholder: 'Image URL in assets folder or online'
+      = f.input  :short_desc
+      = f.input  :long_desc
+      = f.input  :project_link, placeholder: 'URL to view project online'
+      = f.button :submit, 'Create Project', :class => 'btn btn-primary btn-xl js-scroll-trigger'
+    %br/
