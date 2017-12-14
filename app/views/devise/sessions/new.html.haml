@@ -1,21 +1,17 @@
 %br/
 %br/
 %br/
-.container.my-auto
+.container.text-left
   %h1 Log in
-  = form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
-    .field
-      = f.label :email
-      %br/
-      = f.email_field :email, autofocus: true
-    .field
-      = f.label :password
-      %br/
-      = f.password_field :password, autocomplete: "off"
-    - if devise_mapping.rememberable?
-      .field
+  %d.row
+    %d.col-md-6
+      = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
+        = f.input :email, autofocus: true
+        = f.input :password, autocomplete: "off"
         = f.check_box :remember_me
-        = f.label :remember_me
-    .actions
-      = f.submit "Log in"
-  = render "devise/shared/links"
+        Remember me
+        %br/
+        %br/
+        = f.button :submit, "Log in", :class => 'btn btn-primary btn-xl js-scroll-trigger'
+      %br/
+      = render "devise/shared/links"
