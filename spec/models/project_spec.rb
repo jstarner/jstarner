@@ -27,7 +27,7 @@ RSpec.describe Project, type: :model do
     end
 
     [   #unique field  #value
-      [ :title,        'project@mail.com' ],
+      :title, 
     ].each do |test_case|
       unique_field, value = test_case
 
