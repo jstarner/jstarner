@@ -2,7 +2,12 @@
   %d.col-md-6
     = simple_form_for(:project, url: admin_projects_path) do |f|
       = f.input  :title
-      = f.input  :image, placeholder: 'Image URL in assets folder or online'
+      * Image
+      %br/
+      %br/
+      = f.file_field :avatar
+      %br/
+      %br/
       = f.input  :short_desc
       = f.input  :long_desc
       = f.input  :project_link, placeholder: 'URL to view project online'

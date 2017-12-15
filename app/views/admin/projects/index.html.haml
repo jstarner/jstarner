@@ -14,7 +14,7 @@
       - @projects.each do |project|
         %tr
           %td= project.title
-          %td= project.image
+          %td= project.avatar_identifier
           %td= project.project_link
           %td= link_to 'Show', project, target: :blank
           %td= link_to 'Edit', edit_admin_project_path(project)

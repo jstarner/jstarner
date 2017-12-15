@@ -42,6 +42,8 @@ gem 'font-awesome-sass'
 
 gem 'simple_form'
 
+gem 'carrierwave', '~> 1.0'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
