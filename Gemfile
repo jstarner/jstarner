@@ -44,6 +44,8 @@ gem 'simple_form'
 
 gem 'carrierwave', '~> 1.0'
 
+gem 'rmagick'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
