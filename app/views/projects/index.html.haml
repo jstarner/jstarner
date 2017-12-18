@@ -8,7 +8,7 @@
     - @projects.each do |project|
       .col-lg-4.col-sm-6.portfolio-item
         .card.h-100
-          %a.card-img-top= link_to image_tag(project.avatar_identifier, size: '348x250'), project
+          %a.card-img-top= link_to image_tag(project.avatar, size: '348x250'), project
           .card-body
             %h4.card-title
               %a{:href => 'projectview'}= link_to project.title, project
