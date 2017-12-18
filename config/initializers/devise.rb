@@ -16,7 +16,9 @@ Devise.setup do |config|
 
   config.omniauth :facebook, "199241663971519", "ac549d6fbcae364942c1aa5f6d633e99"
 
-  config.omniauth :google, "CONSUMER_KEY", "CONSUMER_SECRET"
+  config.omniauth :twitter, "QVNpMk56Gz7IIZ2J1gE9q8HHG", "eoaNOsMsU1HQ1jsKyX83iNWBFnWw58cLhOQhW3bwVUhxNE6XUF"
+
+  config.omniauth :google_oauth2, "422049677899-vr6ehs1er0qak4erp3en5tok1a2b5d47.apps.googleusercontent.com", "vZV_ZU0J5Ha0e6UalPl5wXhb", {scope: 'email, profile'}
 
   # Configure the class responsible to send e-mails.
   # config.mailer = 'Devise::Mailer'
