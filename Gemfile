@@ -44,6 +44,10 @@ gem 'simple_form'
 
 gem 'carrierwave', '~> 1.0'
 
+gem 'omniauth-facebook'
+
+gem 'omniauth-google'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
