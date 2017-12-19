@@ -56,6 +56,10 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
 
+group :assets do
+  gem 'turbo-sprockets-rails3'
+end
+
 group :development, :test do
   gem 'byebug', platform: :mri
   gem 'dotenv-rails'
