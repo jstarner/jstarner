@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap', '~> 4.0.0.alpha3'
 
+gem 'jquery-rails'
+
 gem 'devise'
 
 gem "haml-rails", "~> 1.0"
