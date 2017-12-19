@@ -16,8 +16,6 @@ Devise.setup do |config|
 
   config.omniauth :facebook,      ENV['FACEBOOK_ID'], ENV['FACEBOOK_KEY']
 
-  config.omniauth :twitter,       ENV['TWITTER_ID'],  ENV['TWITTER_KEY']
-
   config.omniauth :google_oauth2, ENV['GOOGLE_ID'],   ENV['GOOGLE_KEY']
 
   # Configure the class responsible to send e-mails.
