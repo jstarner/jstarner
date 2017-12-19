@@ -33,7 +33,7 @@ a {
 }
 /* line 31, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a:hover {
-  color: #f05f40;
+  color: #F05F40;
 }
 
 /* line 36, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
@@ -110,7 +110,7 @@ body {
 }
 /* line 89, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #F05F40;
 }
 /* line 93, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -178,7 +178,7 @@ body {
   }
   /* line 142, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #F05F40;
   }
   /* line 146, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
@@ -197,7 +197,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("header.jpg");
+  background-image: url("app/assets/images/header.jpg");
   background-position: center center;
   background-size: cover;
 }
@@ -14743,7 +14743,7 @@ a {
 }
 /* line 30, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a:hover {
-  color: #f05f40;
+  color: #F05F40;
 }
 
 /* line 35, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
@@ -14820,7 +14820,7 @@ body {
 }
 /* line 88, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: #F05F40;
 }
 /* line 92, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
@@ -14888,7 +14888,7 @@ body {
   }
   /* line 141, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #F05F40;
   }
   /* line 145, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
@@ -14907,7 +14907,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("header.jpg");
+  background-image: url("app/assets/images/header.jpg");
   background-position: center center;
   background-size: cover;
 }
