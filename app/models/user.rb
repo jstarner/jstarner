@@ -7,7 +7,7 @@ class User < ApplicationRecord
   def self.from_omniauth(auth)
     where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
       data = auth.info
-      user.email = data['email']
+      user.email = auth.info.email
       user.password = Devise.friendly_token[0,20]
       # user.name = auth.info.name   # assuming the user model has a name
       # user.image = auth.info.image # assuming the user model has an image
@@ -23,7 +23,7 @@ class User < ApplicationRecord
         user.email = data["email"] if user.email.blank?
       elsif data = session["devise.twitter_data"] && session["devise.twitter_data"]["raw_info"]
         user.email = data["email"] if user.email.blank?
-      elsif data = session["devise.google_data"] && session["devise.google_data"]["extra"]["raw_info"]
+      elsif data = session["devise.google_data"] && session["devise.google_data"]["raw_info"]
         user.email = data["email"] if user.email.blank?
       end
     end
