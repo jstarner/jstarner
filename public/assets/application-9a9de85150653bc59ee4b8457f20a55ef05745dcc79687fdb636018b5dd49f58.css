@@ -6,6 +6,11 @@ a:hover {
 a:hover .fa {
   opacity: 0.8;
 }
+
+/* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+h1 {
+  padding-top: 90px;
+}
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
@@ -18,6 +23,11 @@ a:hover {
 /* line 4, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
 a:hover .fa {
   opacity: 0.8;
+}
+
+/* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+h1 {
+  padding-top: 90px;
 }
 
 /* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
@@ -14751,6 +14761,11 @@ a:hover {
 /* line 4, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
 a:hover .fa {
   opacity: 0.8;
+}
+
+/* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+h1 {
+  padding-top: 90px;
 }
 
 /* line 9, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
