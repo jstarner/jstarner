@@ -1,13 +1,14 @@
-%br/
-%br/
-%br/
-%br/
-.container.text-left
-  %h1 Forgot your password?
-  %d.row
-    %d.col-md-6
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %h1 Forgot your password?
+    %br/
+    .container.bg-login
+      %br/
+      %d.row
       = simple_form_for(resource, as: resource_name, url: password_path(resource_name), html: { method: :post }) do |f|
         = f.input :email, autofocus: true
-        = f.button :submit, "Send me reset password instructions", :class => 'btn btn-primary btn-xl js-scroll-trigger'
+        = f.button :submit, "Reset password", :class => 'btn btn-primary btn-xl js-scroll-trigger'
       %br/
-      = render "devise/shared/links"
+      %d.row
+      = render 'devise/shared/links'
+      %br/

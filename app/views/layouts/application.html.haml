@@ -19,4 +19,6 @@
       %br/
       %br/
       %p.alert.alert-danger= alert
-    = yield
+    .yield-wrapper
+      = yield
+    = render 'layouts/footer'
