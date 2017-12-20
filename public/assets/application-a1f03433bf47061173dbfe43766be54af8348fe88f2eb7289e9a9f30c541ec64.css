@@ -197,7 +197,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("images/header.jpeg");
+  background-image: url("header.jpeg");
   background-position: center center;
   background-size: cover;
 }
@@ -14907,7 +14907,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("images/header.jpeg");
+  background-image: url("header.jpeg");
   background-position: center center;
   background-size: cover;
 }
