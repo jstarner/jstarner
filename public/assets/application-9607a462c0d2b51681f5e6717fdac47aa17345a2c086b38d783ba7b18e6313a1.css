@@ -11,6 +11,34 @@ a:hover .fa {
 h1 {
   padding-top: 90px;
 }
+
+/* line 14, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+.yield-wrapper {
+  min-height: 100%;
+}
+
+/* line 18, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+footer {
+  margin-top: 20px;
+}
+
+/* line 22, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#resume {
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+/* line 27, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#about {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+/* line 32, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+img {
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
@@ -28,6 +56,34 @@ a:hover .fa {
 /* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
 h1 {
   padding-top: 90px;
+}
+
+/* line 14, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+.yield-wrapper {
+  min-height: 100%;
+}
+
+/* line 18, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+footer {
+  margin-top: 20px;
+}
+
+/* line 22, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#resume {
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+/* line 27, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#about {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+/* line 32, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+img {
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 /* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
@@ -14766,6 +14822,34 @@ a:hover .fa {
 /* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
 h1 {
   padding-top: 90px;
+}
+
+/* line 14, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+.yield-wrapper {
+  min-height: 100%;
+}
+
+/* line 18, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+footer {
+  margin-top: 20px;
+}
+
+/* line 22, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#resume {
+  height: 100%;
+  padding-bottom: 40px;
+}
+
+/* line 27, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+#about {
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+/* line 32, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+img {
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 /* line 9, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
