@@ -10,8 +10,14 @@
   %body
     = render 'layouts/navigation'
     - if notice
+      %br/
+      %br/
+      %br/
       %p.alert.alert-success= notice
     - if alert
+      %br/
+      %br/
+      %br/
       %p.alert.alert-danger= alert
     = yield
     = render 'layouts/footer'

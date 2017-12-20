@@ -6,18 +6,18 @@
         %span.navbar-toggler-icon
       #navbarCollapse.collapse.navbar-collapse
         %ul.navbar-nav.mr-auto
-          %li.nav-item
+          %li.nav-item{:class => active_class('/index')}
             %a.nav-link{:href => '/index'} Home
-          %li.nav-item
+          %li.nav-item{:class => active_class('/about')}
             %a.nav-link{:href => '/about'} About
-          %li.nav-item
+          %li.nav-item{:class => active_class('/projects')}
             %a.nav-link{:href => '/projects'} Projects
-          %li.nav-item
+          %li.nav-item{:class => active_class('/resume')}
             %a.nav-link{:href => '/resume'} Resume
-          %li.nav-item
+          %li.nav-item{:class => active_class('/faq')}
             %a.nav-link{:href => '/faq'} FAQ
           - if current_user && current_user.is_admin
-            %li.nav-item
+            %li.nav-item{:class => active_class('/admin/projects')}
               %a.nav-link{:href => '/admin/projects'} Admin
         %form.form-inline.mt-2.mt-md-0
           - if user_signed_in?
