@@ -1,18 +1,35 @@
-%br/
-%br/
-%br/
-%br/
-.container.text-left
-  %h1 Projects
-  %br/
-  .row
-    - @projects.each do |project|
-      .col-lg-4.col-sm-6.portfolio-item
-        .card.h-100
-          .card-body
-            %a.card-img-top= link_to image_tag(project.avatar, style: 'width:100%;'), project
-            %h4.card-title
-              %p
-              %a{:href => 'projectview'}= link_to project.title, project
-            %p.card-text= project.short_desc
-  %br/
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1 Projects
+    %br/
+    .row
+      - @projects.each do |project|
+        .col-lg-4.col-sm-6.portfolio-item
+          .card.h-100.bg-dark
+            .card-body
+              %a.card-img-top= link_to image_tag(project.avatar, style: 'width:100%;'), project
+              %h4.card-title
+                %p
+                %a{:href => 'projectview'}= link_to project.title, project
+              %p.card-text= project.short_desc
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+= render 'layouts/footer'

@@ -1,18 +1,20 @@
-%br/
-%br/
-%br/
-%br/
-.container.text-left
-  %h1 Log in 
-  %br/
-  %d.row
-  = link_to 'Sign in with Facebook', user_facebook_omniauth_authorize_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
-  %p
-  %d.row
-  = link_to 'Sign in with Google', user_google_oauth2_omniauth_authorize_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
-
-  %d.row
-    %d.col-md-6
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1 Log in 
+    %br/
+    .container.bg-login
+      %br/
+      %d.row
+      = link_to 'Sign in with Facebook', user_facebook_omniauth_authorize_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+      %p
+      %d.row
+      = link_to 'Sign in with Google', user_google_oauth2_omniauth_authorize_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+      %br/
+      %d.row
       %br/
       = simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f|
         = f.input :email, autofocus: true
@@ -23,4 +25,11 @@
         %br/
         = f.button :submit, 'Log in', :class => 'btn btn-primary btn-xl js-scroll-trigger'
       %br/
+      %d.row
       = render 'devise/shared/links'
+      %br/
+    %br/
+    %br/
+    %br/
+    %br/
+= render 'layouts/footer'

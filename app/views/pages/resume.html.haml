@@ -1,46 +1,49 @@
-%br
-%br
-%br
-%br/
-.container.text-left
-  %h1 Resume
-  %br
-    %h2.mb-0
-      Justin
-      %span.text-primary Starner
-    .mb-4
-      825 Gaines School Rd Apt 231 &#xB7; Athens, GA 30605 &#xB7; (678) 761-3528 &#xB7;
-      %a{:href => 'mailto:justin@polarnotion.com'} justin@polarnotion.com
-    %br
-      %h2.mb-0 
-        University of Georgia
-        %i.fa.fa-graduation-cap
-      .subheading.h4.mb-3 Bachelor of Science
-      %div Computer Science - Software Engineering Track
-      %p
-        GPA: 3.39
-        %br Spring 2014 - May 2017
-      %h2.mb-0 
-        Programming Skills & Tools
-        %i.fa.fa-code
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1 Resume
+    %br/
+    .container.text-left.bg-dark
+      %br/
+      %h2.mb-0
+        Justin
+        %span.text-primary Starner
+      .mb-4
+        825 Gaines School Rd Apt 231 &#xB7; Athens, GA 30605 &#xB7; (678) 761-3528 &#xB7;
+        %a{:href => 'mailto:justin@polarnotion.com'} justin@polarnotion.com
       %br
-        .subheading.mb-3 Ruby, Rails, C, C++, JAVA, SQL, PHP, Bootstrap, HTML, CSS, C#, Unity
-        %ul.fa-ul.mb-0
-          %li
-            %i.fa-li.fa.fa-check
-            Mobile-First, Responsive Design
-          %li
-            %i.fa-li.fa.fa-check
-            Cross Functional Teams
-          %li
-            %i.fa-li.fa.fa-check
-            Agile Development  Scrum
+        %h2.mb-0 
+          University of Georgia
+          %i.fa.fa-graduation-cap
+        .subheading.h4.mb-3 Bachelor of Science
+        %div Computer Science - Software Engineering Track
+        %p
+          GPA: 3.39
+          %br Spring 2014 - May 2017
+        %h2.mb-0 
+          Programming Skills & Tools
+          %i.fa.fa-code
         %br
-        %br
-          %h2.mb-0 
-            Polar Notion
-            %i.fa.fa-briefcase
-          .subheading.h4.mb-3 Ruby on Rails Apprentice
-          %p Working full-time directly under a mentor as an apprentice for Ruby on Rails development
+          .subheading.mb-3 Ruby, Rails, C, C++, JAVA, SQL, PHP, Bootstrap, HTML, CSS, C#, Unity
+          %ul.fa-ul.mb-0
+            %li
+              %i.fa-li.fa.fa-check
+              Mobile-First, Responsive Design
+            %li
+              %i.fa-li.fa.fa-check
+              Cross Functional Teams
+            %li
+              %i.fa-li.fa.fa-check
+              Agile Development  Scrum
           %br
-          %a= link_to 'Download PDF', 'Resume.pdf', :class => 'btn btn-primary btn-xl js-scroll-trigger'
+          %br
+            %h2.mb-0 
+              Polar Notion
+              %i.fa.fa-briefcase
+            .subheading.h4.mb-3 Ruby on Rails Apprentice
+            %p Working full-time directly under a mentor as an apprentice for Ruby on Rails development
+            %a= link_to 'Download PDF', 'Resume.pdf', :class => 'btn btn-primary btn-xl js-scroll-trigger'
+    = render 'layouts/footer'

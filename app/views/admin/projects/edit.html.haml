@@ -1,10 +1,23 @@
-%br/
-%br/
-%br/
-%br/
-.container.text-left
-  %h1 Editing Project
-  = render 'form', project: @project
-  = link_to 'Show', @project, target: :blank
-  |
-  \#{link_to 'Back', admin_projects_path}
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1 Editing Project
+    %br/
+    .container.bg-login
+      %br/
+      = render 'form', project: @project
+      = link_to 'Back', admin_projects_path
+      %br/
+      %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+= render 'layouts/footer'

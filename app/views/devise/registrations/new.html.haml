@@ -1,11 +1,12 @@
-%br/
-%br/
-%br/
-%br/
-.container.text-left
-  %h1 Sign up
-  %d.row
-    %d.col-md-6
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1 Sign up
+    .container.bg-login
+      %br/
       = simple_form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f|
         = f.input :email, :format => { :with => /\A[^@\s]+@[^@\s]+\z/, :message => 'Invalid e-mail! Please provide a valid e-mail address'}
         = f.input :password, autocomplete: "off", :minimum => 6, :maximum => 128
@@ -13,3 +14,17 @@
         = f.button :submit, "Sign up", :class => 'btn btn-primary btn-xl js-scroll-trigger'
       %br/
       = render "devise/shared/links"
+      %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+= render 'layouts/footer'
