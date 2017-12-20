@@ -1,72 +1,103 @@
+/* line 2, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover {
+  text-decoration: none;
+}
+/* line 4, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover .fa {
+  opacity: 0.8;
+}
 /*!
  * Start Bootstrap - Creative v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/creative)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
-/* line 8, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 2, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover {
+  text-decoration: none;
+}
+/* line 4, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover .fa {
+  opacity: 0.8;
+}
+
+/* line 10, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body, html {
   width: 100%;
   height: 100%;
 }
 
-/* line 13, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 15, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 17, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 19, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: red;
 }
-/* line 21, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 23, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 hr.light {
   border-color: #fff;
 }
 
-/* line 26, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 28, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a {
-  color: #F05F40;
+  color: red;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 31, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 33, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a:hover {
-  color: #F05F40;
+  color: red;
 }
 
-/* line 36, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 38, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 40, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 42, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: red !important;
 }
 
-/* line 44, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 46, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .bg-dark {
   background-color: #212529 !important;
+  opacity: 0.9;
 }
 
-/* line 48, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 51, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+.bg-login {
+  background-color: #212529 !important;
+  opacity: 0.9;
+  max-width: 500px;
+}
+
+/* line 57, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+.bg-nav {
+  background-color: #212529 !important;
+  opacity: 0.8;
+}
+
+/* line 62, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 52, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 66, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 section {
   padding: 8rem 0;
 }
 
-/* line 56, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 70, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 60, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 74, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 ::-moz-selection, ::-moz-selection {
   color: #fff;
   background: #212529;
@@ -78,7 +109,7 @@ section {
   text-shadow: none;
 }
 
-/* line 67, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 81, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 img::-moz-selection, img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -88,12 +119,12 @@ img::selection, img::-moz-selection {
   background: transparent;
 }
 
-/* line 73, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 87, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body {
   -webkit-tap-highlight-color: #212529;
 }
 
-/* line 77, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 91, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -101,99 +132,99 @@ body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 84, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 98, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: red;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-/* line 89, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 103, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #F05F40;
+  color: red;
 }
-/* line 93, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 107, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
 }
-/* line 98, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 112, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
 }
-/* line 104, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 118, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: red;
 }
-/* line 107, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 121, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: red !important;
   background-color: transparent;
 }
-/* line 111, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 125, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
 @media (min-width: 992px) {
-  /* line 118, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 132, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav {
     border-color: transparent;
     background-color: transparent;
   }
-  /* line 121, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 135, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 123, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 137, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
   }
-  /* line 127, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 141, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 130, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 144, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 133, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 147, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
-  /* line 137, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 151, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
-  /* line 140, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 154, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: red;
   }
-  /* line 142, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 156, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #F05F40;
+    color: red;
   }
-  /* line 146, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 160, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
     color: #212529;
   }
-  /* line 148, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 162, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
   }
-  /* line 151, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 165, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: red;
   }
 }
-/* line 159, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 173, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -201,58 +232,58 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
-/* line 168, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 182, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 172, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 186, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead h1 {
   font-size: 2rem;
 }
-/* line 175, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 189, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead p {
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  /* line 181, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 195, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead p {
     font-size: 1.15rem;
   }
 }
 @media (min-width: 992px) {
-  /* line 187, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 201, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  /* line 192, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 206, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 199, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 213, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead h1 {
     font-size: 4rem;
   }
 }
-/* line 204, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 218, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .service-box {
   max-width: 400px;
 }
 
-/* line 208, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 222, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
-/* line 213, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 227, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
@@ -266,7 +297,7 @@ header.masthead p {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 226, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 240, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -275,46 +306,46 @@ header.masthead p {
           transform: translateY(-50%);
   text-align: center;
 }
-/* line 232, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 246, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-/* line 236, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 250, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
-/* line 241, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 255, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-/* line 246, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 260, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-/* line 249, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 263, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box:focus {
   outline: none;
 }
 
 @media (min-width: 768px) {
-  /* line 256, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 270, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
-  /* line 259, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 273, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
 }
-/* line 265, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 279, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .text-primary {
-  color: #F05F40 !important;
+  color: red !important;
 }
 
-/* line 269, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 283, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn {
   font-weight: 700;
   text-transform: uppercase;
@@ -323,29 +354,29 @@ header.masthead p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 277, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 291, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-xl {
   padding: 1rem 2rem;
 }
 
-/* line 281, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 295, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: red;
+  border-color: red;
 }
-/* line 284, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 298, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:hover, .btn-primary:focus {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #ff3333 !important;
 }
-/* line 288, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 302, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #ff3333 !important;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
           box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
-/* line 293, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 307, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
           box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
@@ -14713,70 +14744,93 @@ a.text-dark:focus, a.text-dark:hover {
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
-/* line 7, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 2, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover {
+  text-decoration: none;
+}
+/* line 4, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/styles.scss */
+a:hover .fa {
+  opacity: 0.8;
+}
+
+/* line 9, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body, html {
   width: 100%;
   height: 100%;
 }
 
-/* line 12, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 14, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 16, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 18, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: red;
 }
-/* line 20, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 22, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 hr.light {
   border-color: #fff;
 }
 
-/* line 25, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 27, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a {
-  color: #F05F40;
+  color: red;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 30, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 32, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 a:hover {
-  color: #F05F40;
+  color: red;
 }
 
-/* line 35, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 37, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 39, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 41, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: red !important;
 }
 
-/* line 43, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 45, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .bg-dark {
   background-color: #212529 !important;
+  opacity: 0.9;
 }
 
-/* line 47, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 50, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+.bg-login {
+  background-color: #212529 !important;
+  opacity: 0.9;
+  max-width: 500px;
+}
+
+/* line 56, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+.bg-nav {
+  background-color: #212529 !important;
+  opacity: 0.8;
+}
+
+/* line 61, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 51, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 65, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 section {
   padding: 8rem 0;
 }
 
-/* line 55, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 69, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .section-heading {
   margin-top: 0;
 }
 
-/* line 59, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 73, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 ::-moz-selection, ::-moz-selection {
   color: #fff;
   background: #212529;
@@ -14788,7 +14842,7 @@ section {
   text-shadow: none;
 }
 
-/* line 66, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 80, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 img::-moz-selection, img::-moz-selection {
   color: #fff;
   background: transparent;
@@ -14798,12 +14852,12 @@ img::selection, img::-moz-selection {
   background: transparent;
 }
 
-/* line 72, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 86, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 body {
   -webkit-tap-highlight-color: #212529;
 }
 
-/* line 76, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 90, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -14811,99 +14865,99 @@ body {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 83, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 97, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand {
   font-weight: 700;
   text-transform: uppercase;
-  color: #F05F40;
+  color: red;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-/* line 88, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 102, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #F05F40;
+  color: red;
 }
-/* line 92, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 106, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
 }
-/* line 97, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 111, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
   color: #212529;
 }
-/* line 103, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 117, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: red;
 }
-/* line 106, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 120, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
+  color: red !important;
   background-color: transparent;
 }
-/* line 110, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 124, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
   background-color: transparent;
 }
 
 @media (min-width: 992px) {
-  /* line 117, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 131, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav {
     border-color: transparent;
     background-color: transparent;
   }
-  /* line 120, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 134, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 122, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 136, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #fff;
   }
-  /* line 126, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 140, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 129, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 143, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     color: rgba(255, 255, 255, 0.7);
   }
-  /* line 132, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 146, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
     color: #fff;
   }
-  /* line 136, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 150, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
     background-color: #fff;
   }
-  /* line 139, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 153, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: red;
   }
-  /* line 141, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 155, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #F05F40;
+    color: red;
   }
-  /* line 145, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 159, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link {
     color: #212529;
   }
-  /* line 147, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 161, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
     color: #212529;
   }
-  /* line 150, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 164, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover, #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: red;
   }
 }
-/* line 158, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 172, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
@@ -14911,58 +14965,58 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
-/* line 167, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 181, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead hr {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-/* line 171, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 185, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead h1 {
   font-size: 2rem;
 }
-/* line 174, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 188, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 header.masthead p {
   font-weight: 300;
 }
 
 @media (min-width: 768px) {
-  /* line 180, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 194, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead p {
     font-size: 1.15rem;
   }
 }
 @media (min-width: 992px) {
-  /* line 186, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 200, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead {
     height: 100vh;
     min-height: 650px;
     padding-top: 0;
     padding-bottom: 0;
   }
-  /* line 191, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 205, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 198, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 212, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   header.masthead h1 {
     font-size: 4rem;
   }
 }
-/* line 203, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 217, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .service-box {
   max-width: 400px;
 }
 
-/* line 207, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 221, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
   margin: 0 auto;
 }
-/* line 212, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 226, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption {
   position: absolute;
   bottom: 0;
@@ -14976,7 +15030,7 @@ header.masthead p {
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
-/* line 225, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 239, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
   position: absolute;
   top: 50%;
@@ -14985,46 +15039,46 @@ header.masthead p {
           transform: translateY(-50%);
   text-align: center;
 }
-/* line 231, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 245, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
-/* line 235, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 249, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
   font-size: 14px;
   font-weight: 600;
   text-transform: uppercase;
 }
-/* line 240, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 254, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-/* line 245, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 259, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
-/* line 248, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 262, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .portfolio-box:focus {
   outline: none;
 }
 
 @media (min-width: 768px) {
-  /* line 255, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 269, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     font-size: 16px;
   }
-  /* line 258, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+  /* line 272, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
   .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 22px;
   }
 }
-/* line 264, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 278, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .text-primary {
-  color: #F05F40 !important;
+  color: red !important;
 }
 
-/* line 268, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 282, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn {
   font-weight: 700;
   text-transform: uppercase;
@@ -15033,29 +15087,29 @@ header.masthead p {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* line 276, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 290, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-xl {
   padding: 1rem 2rem;
 }
 
-/* line 280, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 294, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: red;
+  border-color: red;
 }
-/* line 283, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 297, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:hover, .btn-primary:focus {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #ff3333 !important;
 }
-/* line 287, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 301, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #ff3333 !important;
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
           box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
-/* line 292, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
+/* line 306, /Users/justinstarner/Desktop/PolarNotion/jstarner/app/assets/stylesheets/theme.scss */
 .btn-primary:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
           box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
