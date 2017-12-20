@@ -3,6 +3,8 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
+@import "palette";
+@import "styles";
 
 body, html {
   width: 100%;
@@ -16,19 +18,19 @@ body {
 hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #F05F40;
+  border-color: $color_primary;
   &.light {
     border-color: #fff;
   }
 }
 
 a {
-  color: #F05F40;
+  color: $color_primary;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
   &:hover {
-    color: #F05F40;
+    color: $color_primary;
   }
 }
 
@@ -37,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: $color_primary !important;
 }
 
 .bg-dark {
@@ -83,10 +85,10 @@ body {
   .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #F05F40;
+    color: $color_primary;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     &:focus, &:hover {
-      color: #F05F40;
+      color: $color_primary;
     }
   }
   .navbar-nav > li.nav-item > a.nav-link {
@@ -101,10 +103,10 @@ body {
       color: #212529;
     }
     &:hover, &:focus:hover {
-      color: #F05F40;
+      color: $color_primary;
     }
     &.active, &:focus.active {
-      color: #F05F40 !important;
+      color: $color_primary !important;
       background-color: transparent;
     }
     &.active:hover, &:focus.active:hover {
@@ -137,9 +139,9 @@ body {
       border-bottom: 1px solid rgba(33, 37, 41, 0.1);
       background-color: #fff;
       .navbar-brand {
-        color: #F05F40;
+        color: $color_primary;
         &:focus, &:hover {
-          color: #F05F40;
+          color: $color_primary;
         }
       }
       .navbar-nav > li.nav-item > a.nav-link {
@@ -148,7 +150,7 @@ body {
           color: #212529;
         }
         &:hover, &:focus:hover {
-          color: #F05F40;
+          color: $color_primary;
         }
       }
     }
@@ -262,7 +264,7 @@ header.masthead {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: $color_primary !important;
 }
 
 .btn {
@@ -278,15 +280,15 @@ header.masthead {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: $color_primary;
+  border-color: $color_primary;
   &:hover, &:focus {
     color: #fff;
-    background-color: #ee4b28 !important;
+    background-color: $color_primary_light !important;
   }
   &:active {
     color: #fff;
-    background-color: #ee4b28 !important;
+    background-color: $color_primary_light !important;
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
   }
   &:focus {
