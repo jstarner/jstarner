@@ -1,17 +1,34 @@
-%br/
-%br/
-%br/
-.container.text-left
-  %h1= @project.title
-  .row
-    .col-lg-8
-      %img.img-fluid/
-      =image_tag(@project.avatar, size: '750x500')
-    .col-lg-4.col-sm-6.portfolio-item
-      %h3.my-3 Project Description
-      %p= @project.long_desc
-      %a= link_to 'Live Demo',@project.project_link, :class => 'btn btn-primary btn-xl js-scroll-trigger'
-  %br/
-  %a= link_to 'Back', projects_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
-  %br/
-  %br/
+%header.masthead.text-center.text-white.d-flex
+  .container.my-auto
+    %br/
+    %br/
+    %br/
+    %br/
+    %h1= @project.title
+    .row
+      .container.text-center
+        .row
+          .container.text-center
+            =image_tag(@project.avatar, size: '330x255')
+    %br/
+    .row
+      .container.text-left.bg-dark
+        .container.my-auto
+          %h3.my-3 Project Description
+          %br/
+          %p= @project.long_desc
+          %br/
+          %a= link_to 'Live Demo',@project.project_link, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+          %br/
+          %br/
+          %a= link_to 'Back', projects_path, :class => 'btn btn-primary btn-xl js-scroll-trigger'
+          %br/
+          %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+    %br/
+= render 'layouts/footer'
